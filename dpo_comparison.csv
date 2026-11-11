@@ -1,0 +1,5 @@
+,json_valid_%,ade_precision,ade_recall,ade_f1,pair_precision,pair_recall,pair_f1,pair_f1_lenient,false_alarms,misses,train_minutes
+Base (no training),99.7,0.4,0.824,0.538,0.178,0.489,0.261,0.322,252.0,36.0,0
+A. SFT only,100.0,0.932,0.877,0.904,0.701,0.694,0.697,0.779,13.0,25.0,54
+B. DPO only,27.7,0.467,0.623,0.534,0.171,0.336,0.226,0.303,145.0,77.0,29
+C. SFT → DPO,99.5,0.723,0.961,0.825,0.556,0.775,0.648,0.729,75.0,8.0,29
